@@ -560,7 +560,7 @@
           <mxGeometry x="147" y="-372" width="116" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wcbFm191Xv4B1f_YWwnQ-234" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="66" y="-470" width="157" height="17" as="geometry" />
+          <mxGeometry x="148" y="-412" width="157" height="17" as="geometry" />
         </mxCell>
         <mxCell id="wcbFm191Xv4B1f_YWwnQ-235" value="" style="endArrow=oval;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="wcbFm191Xv4B1f_YWwnQ-234">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -568,11 +568,11 @@
             <mxPoint x="60" y="9" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wcbFm191Xv4B1f_YWwnQ-236" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Insurance_ID (PK)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="wcbFm191Xv4B1f_YWwnQ-234">
+        <mxCell id="wcbFm191Xv4B1f_YWwnQ-236" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Insurance_ID (FK)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="wcbFm191Xv4B1f_YWwnQ-234">
           <mxGeometry x="65" width="92" height="17" as="geometry" />
         </mxCell>
         <mxCell id="wcbFm191Xv4B1f_YWwnQ-237" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="66" y="-488" width="116" height="17" as="geometry" />
+          <mxGeometry x="148" y="-430" width="116" height="17" as="geometry" />
         </mxCell>
         <mxCell id="wcbFm191Xv4B1f_YWwnQ-238" value="" style="endArrow=oval;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="wcbFm191Xv4B1f_YWwnQ-237">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -580,22 +580,52 @@
             <mxPoint x="60" y="9" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wcbFm191Xv4B1f_YWwnQ-239" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;CRM (PK)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="wcbFm191Xv4B1f_YWwnQ-237">
+        <mxCell id="wcbFm191Xv4B1f_YWwnQ-239" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;CPF (FK)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="wcbFm191Xv4B1f_YWwnQ-237">
           <mxGeometry x="65" width="51" height="17" as="geometry" />
         </mxCell>
         <mxCell id="wcbFm191Xv4B1f_YWwnQ-240" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="66" y="-430" as="sourcePoint" />
-            <mxPoint x="66" y="-479" as="targetPoint" />
+            <mxPoint x="148" y="-372" as="sourcePoint" />
+            <mxPoint x="148" y="-421" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wcbFm191Xv4B1f_YWwnQ-241" value="doctor_insurence" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-62" y="-493" width="116" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wcbFm191Xv4B1f_YWwnQ-252" value="" style="endArrow=none;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1">
+        <mxCell id="wcbFm191Xv4B1f_YWwnQ-253" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="66" y="-469" width="157" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="wcbFm191Xv4B1f_YWwnQ-254" value="" style="endArrow=oval;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="wcbFm191Xv4B1f_YWwnQ-253">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="56" y="-430" as="sourcePoint" />
-            <mxPoint x="66" y="-430" as="targetPoint" />
+            <mxPoint y="9" as="sourcePoint" />
+            <mxPoint x="60" y="9" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wcbFm191Xv4B1f_YWwnQ-255" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Insurance_ID (FK)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="wcbFm191Xv4B1f_YWwnQ-253">
+          <mxGeometry x="65" width="92" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="wcbFm191Xv4B1f_YWwnQ-256" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="66" y="-487" width="116" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="wcbFm191Xv4B1f_YWwnQ-257" value="" style="endArrow=oval;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="wcbFm191Xv4B1f_YWwnQ-256">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="9" as="sourcePoint" />
+            <mxPoint x="60" y="9" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wcbFm191Xv4B1f_YWwnQ-258" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;CRM (FK)&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="wcbFm191Xv4B1f_YWwnQ-256">
+          <mxGeometry x="65" width="51" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="wcbFm191Xv4B1f_YWwnQ-259" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="66" y="-429" as="sourcePoint" />
+            <mxPoint x="66" y="-478" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wcbFm191Xv4B1f_YWwnQ-260" value="" style="endArrow=none;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="56" y="-429" as="sourcePoint" />
+            <mxPoint x="66" y="-429" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
